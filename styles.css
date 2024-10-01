@@ -1,0 +1,79 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.main-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hero-section {
+    background-image: url('./images/golestan-Aliabad-e-Katul.jpg');
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    color: #f1faee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#hero-section h1 {
+    background-color: #1d3557;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#hero-section h2 {
+    background-color: #457B9D;
+    width: 500px;
+    border-radius: 12px;
+    padding: 5px 2px;
+}
+
+#activities-section {
+    display: flex;
+    background: #F1FAEE;
+    flex-direction: column;
+    padding: 20px;
+}
+#attractions-section img{
+    border-radius: 70%;
+    width: 100px;
+}
+#attractions-section {
+    display: flex;
+    margin-top: 30px;
+    padding: 20px 30px;
+    gap: 30px;
+}
+.attractions {
+    width: 240px;
+}
+#guide-section {
+    background-color: #A8DADC;
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+#guide-section img {
+    width: 200px;
+    border-radius: 10px;
+}
